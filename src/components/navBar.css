@@ -1,15 +1,26 @@
 .navBarBody {
 	border: solid black;
 	font-family: 'Omnibus', sans-serif;
+	background-color: #594d73;
+
 }
 
 .navClickables {
 	font-size: 3rem;
 	display:inline;
+	color: #d2c4e4 !important;
+}
 
+.navClickables:hover {
+	color: #92e5e9 !important;
+}
+
+button#NavbarToggler.mr-2.navbar-toggler {
+	background-color: #d2c4e4;
 }
 
 #NavbarToggler span.navbar-toggler-icon {
 	background-image: 0;
 	background-image: url(../staticAssets/Sari-pic.png);
+	background-size:cover;
 }

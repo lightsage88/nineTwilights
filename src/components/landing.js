@@ -2,6 +2,7 @@ import React from 'react';
 import {connect} from 'react-redux';
 import norsePatternGraphic from '../staticAssets/NORSE-PATTERN-GRAPHIC.png';
 import magicAnsuzStone from '../staticAssets/Magic-Ansuz-stone.png';
+import './landing.css';
 export class Landing extends React.Component {
 	constructor(props){
 		super(props);
@@ -18,7 +19,8 @@ export class Landing extends React.Component {
 	render() {
 		return(
 			<div className='landingMain'>
-				<img onClick={(e)=>this.enterMainPage(e)} src={magicAnsuzStone} alt=''/>
+				<img className='norsePatternGraphic' src={norsePatternGraphic}/>
+				<img className='magicAnsuzStone' onClick={(e)=>this.enterMainPage(e)} src={magicAnsuzStone} alt=''/>
 			</div>
 			);
 	}
