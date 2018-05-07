@@ -57,63 +57,28 @@ export class NavBar extends React.Component {
       <div>
       <Navbar className='navBarBody' color="faded" light expand="md">
         <NavbarToggler onClick={this.toggle} id="NavbarToggler" className='mr-2'/>
-        <NavbarBrand href="/home" id="brandType" className='brandType'>9T</NavbarBrand>
         <Collapse isOpen={this.state.isOpen} navbar>
 
         <Nav className="ml-auto" navbar>
 
           <NavItem>
-            <NavLink className='navClickables' href="/">Home</NavLink>
+            <NavLink className='navClickables' href="/home">Home</NavLink>
+          </NavItem>  
+          <NavItem>
+            <NavLink className='navClickables' href="/latest">Latest</NavLink>
           </NavItem>
           
-          <Dropdown isOpen={this.state.dropdown}
-                    toggle={this.toggleDropdown}>
-            <DropdownToggle className='navClickables' caret>
-              Products
-            </DropdownToggle>
-            <DropdownMenu>
-
-              <DropdownItem className='navClickables' href='/products/specials'>Specials</DropdownItem>
-              <DropdownItem className='navClickables' href='/products/clothing'>Clothing</DropdownItem>
-              <DropdownItem className='navClickables' href='/products/food'>Food</DropdownItem>
-              <DropdownItem className='navClickables' href='/products/alcohol'>Alcohol</DropdownItem>
-            </DropdownMenu>
-          </Dropdown>
-
           <NavItem>
-            <NavLink className='navClickables' href="/about">About</NavLink>
-          </NavItem>
-          {
-            localStorage.getItem('validLogin') ?
-             <NavItem> 
-              <NavLink className='navClickables'>
-                Account
-              </NavLink>
-             </NavItem>
-             :
-             null
-          }
-          <NavItem>
-          
-          
+            <NavLink className='navClickables' href='/archive'>Archive</NavLink>          
           </NavItem>
           <NavItem>
-            {localStorage.getItem('validLogin') ?
-            <NavLink className='navClickables' href="/" onClick={(e)=>this.handleLogout(e)}>Log Out</NavLink>
-            :
-            <NavLink className='navClickables' onClick={(e)=>this.toggleModal()}>Log In/Sign Up
-              <Modal isOpen={this.state.modal}>
-                <ModalHeader className='navClickables' toggle={this.toggleModal}>Log In</ModalHeader>
-                  <ModalBody>
-                    <NavLink href='/register'><button className='loginRegisterLink'>Register</button></NavLink>
-                  </ModalBody>
-              </Modal>
-            </NavLink>
-
-            }
+            <NavLink className='navClickables' href='/cast'>Cast</NavLink>
           </NavItem>
           <NavItem>
-            <input className='form-control' type='search' placeholder="Search Under Construction"/>
+            <NavLink className='navClickables' href='/about'>About</NavLink>
+          </NavItem>
+          <NavItem>
+            <NavLink className='navClickables' href='/team'>Team</NavLink>
           </NavItem>
         </Nav>
         </Collapse>

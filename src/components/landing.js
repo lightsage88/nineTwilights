@@ -1,6 +1,7 @@
 import React from 'react';
 import {connect} from 'react-redux';
-
+import norsePatternGraphic from '../staticAssets/NORSE-PATTERN-GRAPHIC.png';
+import magicAnsuzStone from '../staticAssets/Magic-Ansuz-stone.png';
 export class Landing extends React.Component {
 	constructor(props){
 		super(props);
@@ -9,7 +10,7 @@ export class Landing extends React.Component {
 	render() {
 		return(
 			<div className='landingMain'>
-				<h1>Hello World</h1>
+				<img src={magicAnsuzStone} alt=''/>
 			</div>
 			);
 	}

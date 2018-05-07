@@ -1,10 +1,10 @@
 import React from 'react';
 import {connect} from 'react-redux';
-
+import mainBanner from '../staticAssets/9T-HEADER-BANNER.png';
 export function siteBanner(props){
 	return (
 		<div>
-			<h1>BDHOOOOOEELLDL!</h1>
+			<img src={mainBanner} alt=''/>
 		</div>
 
 		);
