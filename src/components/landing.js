@@ -5,12 +5,20 @@ import magicAnsuzStone from '../staticAssets/Magic-Ansuz-stone.png';
 export class Landing extends React.Component {
 	constructor(props){
 		super(props);
+		this.state = {
+			toggle: false
+		}
+	}
+
+	enterMainPage(e){
+		console.log('enterMainPage running');
+		window.location = "/home";
 	}
 
 	render() {
 		return(
 			<div className='landingMain'>
-				<img src={magicAnsuzStone} alt=''/>
+				<img onClick={(e)=>this.enterMainPage(e)} src={magicAnsuzStone} alt=''/>
 			</div>
 			);
 	}
