@@ -1,3 +1,18 @@
+@font-face {
+  font-family: 'Rhyder';
+  src: url(../staticAssets/Rhyder.otf) format('opentype');
+}
+
+@font-face {
+  font-family: 'Omnibus';
+  src: url('../staticAssets/TT_OMNIB.ttf') format('truetype');
+}
+
+.parchmentZone {
+  background: url('../staticAssets/PARCHMENT-PAPER-GRAPHIC.png');
+  background-size:cover;
+}
+
 .App {
   text-align: center;
 }

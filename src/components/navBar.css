@@ -1,0 +1,15 @@
+.navBarBody {
+	border: solid black;
+	font-family: 'Omnibus', sans-serif;
+}
+
+.navClickables {
+	font-size: 3rem;
+	display:inline;
+
+}
+
+#NavbarToggler span.navbar-toggler-icon {
+	background-image: 0;
+	background-image: url(../staticAssets/Sari-pic.png);
+}
