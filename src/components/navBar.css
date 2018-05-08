@@ -2,8 +2,14 @@
 	border: solid black;
 	font-family: 'Omnibus', sans-serif;
 	background-color: #594d73;
-
+	z-index: 1;
 }
+
+.navBarBody div ul li a {
+	font-size: 2rem;
+}
+
+
 
 .navClickables {
 	font-size: 3rem;

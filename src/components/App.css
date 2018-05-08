@@ -11,6 +11,8 @@
 .parchmentZone {
   background: url('../staticAssets/PARCHMENT-PAPER-GRAPHIC.png');
   background-size:cover;
+  position: relative;
+  bottom: 4rem;
 }
 
 .App {

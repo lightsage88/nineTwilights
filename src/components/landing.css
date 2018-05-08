@@ -1,9 +1,14 @@
 img.magicAnsuzStone {
-	width: 95%;
+	width: 80%;
 	position: relative;
 	bottom: 3rem;
+	margin:10%;
 }
 
 img.norsePatternGraphic {
-	width: 90%;
+	width: auto;
+	max-width: 90%;
+	margin: auto 5%;
+	position: relative;
+	top: 2.5rem;
 }
