@@ -1,0 +1,24 @@
+/*.parchmentZone {
+	bottom: 7rem;
+}*/
+
+#closingNorse {
+	top:auto;
+	bottom: 2rem;
+}
+
+.teamHeader {
+	font-family: "Omnibus", sans-serif;
+	text-align: center;
+}
+.teamForward {
+	font-family: "Rhyder",sans-serif;
+	text-align: center;
+	margin: auto 3rem;
+	font-weight: bold;
+}
+
+.teamEntries img {
+	max-width: 10rem;
+	text-align: center;
+}
