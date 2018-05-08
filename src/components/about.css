@@ -1,0 +1,17 @@
+.aboutMain {
+	margin: auto 10%;
+}
+
+
+.aboutText {
+	text-align: center;
+font-family: 'Rhyder', sans-serif;
+}
+
+/*img.norsePatternGraphic {
+	border:white solid;
+}*/
+
+#closingNorse {
+	top:auto;
+}
