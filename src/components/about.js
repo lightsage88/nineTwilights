@@ -6,7 +6,7 @@ export default function About(props){
 		<div className='aboutMain'>
 			<img className='norsePatternGraphic' src={norsePatternGraphic}/>
 			<section className='aboutText'>
-				<h3>RAGNAROK: The Twilight of the Gods</h3>
+				<h3 className='aboutHeader'>RAGNAROK: The Twilight of the Gods</h3>
 				<p>
 					Eons ago, nine of the gods, lead by Odin, made a pact: as they died in their final battle, they would battle
 					they would be reincarnated upon Midgard and take the chance to live new lives free of their past transgressions.

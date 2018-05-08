@@ -8,10 +8,13 @@
 font-family: 'Rhyder', sans-serif;
 }
 
-/*img.norsePatternGraphic {
-	border:white solid;
-}*/
+.aboutHeader {
+	font-size: 1.3rem;
+	margin: 5% auto;
+	font-weight: 600;
+}
 
 #closingNorse {
 	top:auto;
+	bottom: 2rem;
 }

@@ -1,5 +1,14 @@
-body {
+* {
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
+  box-sizing: border-box;
+}
+
+html,main {
+	font-size: 10px; 
+	background: #4a6a97;
+}
+
+body {
+	margin:auto 5% !important ;
 }
