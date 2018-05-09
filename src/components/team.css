@@ -1,6 +1,20 @@
 /*.parchmentZone {
 	bottom: 7rem;
 }*/
+.parchmentZone{
+	background: url(/static/media/PARCHMENT-PAPER-GRAPHIC.912d112b.png) round no-repeat;
+    background-position-x: 0%;
+    background-position-y: 0%;
+    background-size: auto auto;
+background-size: auto auto;
+background-size: contain;
+position: relative;
+bottom: 4rem;
+background-position: unset;
+background-size: cover;
+height: 100vh;
+overflow: scroll;
+}
 
 #closingNorse {
 	top:auto;
@@ -18,7 +32,33 @@
 	font-weight: bold;
 }
 
-.teamEntries img {
+.teamEntries {
+	text-align: center;
+	margin: auto 3rem;
+}
+
+.teamEntries div {
+	border-bottom: solid #bc8953
+}
+
+.teamEntries div:last-child{
+	border: 0;
+}
+
+.teamFace {
 	max-width: 10rem;
 	text-align: center;
+}
+
+.teamMemberName {
+	font-family: "Rhyder", sans-serif;
+}
+
+.teamMemberRole {
+	font-family: "Omnibus", sans-serif;
+	color: #c19360;
+}
+
+.teamMemberSummary {
+	font-family: "Rhyder", sans-serif;
 }

@@ -8,7 +8,7 @@
   src: url('../staticAssets/TT_OMNIB.ttf') format('truetype');
 }
 
-.parchmentZone {
+/*.parchmentZone {
   background: url(/static/media/PARCHMENT-PAPER-GRAPHIC.912d112b.png) round no-repeat;
     background-size: auto auto;
 background-size: contain;
@@ -16,6 +16,21 @@ position: relative;
 bottom: 4rem;
 background-position: unset;
 background-size: cover;
+}*/
+
+.parchmentZone{
+  background: url(/static/media/PARCHMENT-PAPER-GRAPHIC.912d112b.png) round no-repeat;
+    background-position-x: 0%;
+    background-position-y: 0%;
+    background-size: auto auto;
+background-size: auto auto;
+background-size: contain;
+position: relative;
+bottom: 4rem;
+background-position: unset;
+background-size: cover;
+height: 100vh;
+overflow: auto;
 }
 
 .App {

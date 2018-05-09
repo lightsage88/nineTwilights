@@ -18,7 +18,7 @@ export default function Team(props){
 					</p>
 						<section className='teamEntries'>
 							<div className='anneAgnew'>
-								<img className='anneFace' src={anneFace}/>
+								<img className='anneFace teamFace' src={anneFace}/>
 								<h3 className='teamMemberName'>ANNE MORTENSEN-AGNEW</h3>
 								<h2 className='teamMemberRole'>WRITER</h2>
 								<p className='teamMemberSummary'>Anne Mortensen-Agnew graduated from Loyola Marymount University
@@ -27,7 +27,7 @@ export default function Team(props){
 								and magical girls, she is excited to combine her passions in Nine Twilights.</p>
 							</div>
 							<div className='chrisHansbrough'>
-								<img className='chrisFace' src={chrisFace}/>
+								<img className='chrisFace teamFace' src={chrisFace}/>
 								<h3 className='teamMemberName'>CHRIS HANSBROUGH</h3>
 								<h2 className='teamMemberRole'>EDITOR</h2>
 								<p className='teamMemberSummary'>Chris is a freelance editor from Eugene, Oregon with an obsessive
@@ -39,7 +39,7 @@ export default function Team(props){
 
 							</div>
 							<div className='andreaRosales'>
-								<img className='andreaFace' src={andreaFace}/>
+								<img className='andreaFace teamFace' src={andreaFace}/>
 								<h3 className='teamMemberName'>ANDREA ROSALES</h3>
 								<h2 className='teamMemberRole'>ARTIST</h2>
 								<p className='teamMemberSummary'>Andrea Rosales is an illustrator/graphic designer/concept artist from Portland, OR.
