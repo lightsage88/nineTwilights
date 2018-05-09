@@ -1,0 +1,60 @@
+.castHeader {
+	font-family: "Omnibus", sans-serif;
+	text-align: center;
+	margin-top:2rem;
+}
+
+.castMemberName {
+	font-family: "Omnibus", sans-serif;
+	color: #bc8347;
+}
+.castMemberSummary {
+	font-family: "Rhyder", sans-serif;
+}
+
+.castMain {
+	margin: auto 5rem;
+border: solid;
+height: 90vh;
+overflow: auto;
+}
+
+.castMemberPicture {
+	width: auto;
+	max-width: 18rem;
+}
+
+.wandaPic {
+	float:left;
+}
+
+.wandaName {
+	text-align: center;
+
+position: relative;
+left: -4rem;
+width: 35rem;
+}
+.wandaSummary {
+	text-align:center;
+	padding-right: 1rem;
+	font-size:1.11rem;
+}
+
+.baldurPic {
+	float:right;
+}
+.baldurSummary {
+	text-align: center;
+}
+
+.sariName {
+	clear: right;
+text-align: center;
+}
+.sariPic {
+	float:left;
+}
+.sariSummary {
+	text-align: center;
+}
