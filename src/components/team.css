@@ -1,6 +1,7 @@
-/*.parchmentZone {
-	bottom: 7rem;
-}*/
+.norseDivider {
+	width:auto;
+	max-width: 36rem;
+}
 .parchmentZone{
 	background: url(/static/media/PARCHMENT-PAPER-GRAPHIC.912d112b.png) round no-repeat;
     background-position-x: 0%;
@@ -19,6 +20,7 @@ overflow: scroll;
 #closingNorse {
 	top:auto;
 	bottom: 2rem;
+	padding: 2rem;
 }
 
 .teamHeader {
@@ -37,9 +39,9 @@ overflow: scroll;
 	margin: auto 3rem;
 }
 
-.teamEntries div {
+/*.teamEntries div {
 	border-bottom: solid #bc8953
-}
+}*/
 
 .teamEntries div:last-child{
 	border: 0;
@@ -61,4 +63,5 @@ overflow: scroll;
 
 .teamMemberSummary {
 	font-family: "Rhyder", sans-serif;
+	padding:3rem;
 }

@@ -1,5 +1,6 @@
 import React from 'react';
 import './team.css';
+import norseDivider from '../staticAssets/9T-text-divider.png';
 import andreaFace from '../staticAssets/Andrea-circle-graphic.png';
 import anneFace from '../staticAssets/Anne-Circle-graphic.png';
 import chrisFace from '../staticAssets/Chris-circle-graphic.png';
@@ -26,6 +27,7 @@ export default function Team(props){
 								critic for KaBooooom! and an editor for Nerdstock. A lifelong fan of Norse mythology, superheroes,
 								and magical girls, she is excited to combine her passions in Nine Twilights.</p>
 							</div>
+							<img className='norseDivider' src={norseDivider} alt=''/>
 							<div className='chrisHansbrough'>
 								<img className='chrisFace teamFace' src={chrisFace}/>
 								<h3 className='teamMemberName'>CHRIS HANSBROUGH</h3>
@@ -36,7 +38,7 @@ export default function Team(props){
 								of sites before he left with friends to create their 
 								own thing in <a href='http://www.plastikitty.com/'>Plastikitty</a> and <a href='http://www.nerdstock.net/blog/'>Nerdstock</a>
 								</p>
-
+<img className='norseDivider' src={norseDivider} alt=''/>
 							</div>
 							<div className='andreaRosales'>
 								<img className='andreaFace teamFace' src={andreaFace}/>
