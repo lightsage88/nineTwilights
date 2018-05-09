@@ -4,6 +4,17 @@
 	margin-top:2rem;
 }
 
+.norseDivider {
+	width:auto;
+	max-width:70vw;
+	margin: auto 4rem;
+}
+
+.norseDivider2,.norseDivider3{
+	text-align: left;
+	margin: auto -1rem;
+}
+
 .castMemberName {
 	font-family: "Omnibus", sans-serif;
 	color: #bc8347;
@@ -13,7 +24,7 @@
 }
 
 .castMain {
-	margin: auto 5rem;
+	margin: auto 2rem;
 border: solid;
 height: 90vh;
 overflow: auto;
@@ -21,19 +32,27 @@ overflow: auto;
 
 .castMemberPicture {
 	width: auto;
-	max-width: 18rem;
+	max-width: 45vw;
 }
 
-.wandaPic {
-	float:left;
+.wandaDusekova {
+	border: solid cyan;
 }
+
+/*.wandaPic {
+	float:left;
+}*/
 
 .wandaName {
 	text-align: center;
+}
 
-position: relative;
-left: -4rem;
-width: 35rem;
+.wanda1{
+	float:left;
+}
+
+.wanda2{
+	float:right;
 }
 .wandaSummary {
 	text-align:center;
@@ -41,9 +60,21 @@ width: 35rem;
 	font-size:1.11rem;
 }
 
+.baldur1 {
+	float:right;
+}
+.baldur2{
+	float:left;
+}
+
 .baldurPic {
 	float:right;
 }
+
+.baldurName{
+	text-align: center;
+}
+
 .baldurSummary {
 	text-align: center;
 }
@@ -52,9 +83,20 @@ width: 35rem;
 	clear: right;
 text-align: center;
 }
-.sariPic {
+/*.sariPic {
 	float:left;
-}
+}*/
 .sariSummary {
 	text-align: center;
+	width:auto;
+	min-width:35vw;
+	padding-right: 2rem;
+}
+
+.sari1 {
+	float:left;
+}
+
+.sari2 {
+	float:right;
 }
