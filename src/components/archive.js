@@ -18,7 +18,10 @@ export class Archive extends React.Component{
 				<div className='archiveMain'>
 					<img className='norsePatternGraphic' src={norsePatternGraphic}/>
 					<section className='comicBookZone'>
-						<div className='pagePicker'></div>
+						<div className='pagePicker'>
+							<p className='pageFlip previousPage'>PREVIOUS</p>
+							<p className='pageFlip nextPage'>NEXT</p>
+						</div>
 					</section>
 				</div>
 			);

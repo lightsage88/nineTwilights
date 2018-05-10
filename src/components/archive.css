@@ -7,3 +7,30 @@
 	min-height: 70vh;
 	position: relative;
 } 
+
+.pagePicker {
+	background: #504568;
+	width:auto;
+	height: 5vh;
+	color: #b4a5c4;
+	font-family: "Omnibus", sans-serif;
+}
+
+.pagePicker p {
+	margin: .5rem 0;
+}
+
+.pagePicker p:hover {
+	color: #92e5e9;
+}
+
+.previousPage {
+	float:left;
+	padding-left: 1rem;
+	cursor: pointer;
+}
+.nextPage {
+	float:right;
+	padding-right: 1rem;
+	cursor: pointer;
+}
