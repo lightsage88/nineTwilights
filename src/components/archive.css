@@ -1,0 +1,9 @@
+.comicBookZone {
+	border:solid;
+	width: auto;
+	margin: auto;
+	max-width: 70vw;
+	height: auto;
+	min-height: 70vh;
+	position: relative;
+} 

@@ -2,7 +2,7 @@ import React from 'react';
 import {readDatabase} from '../actions/index.js';
 import {connect} from 'react-redux';
 import norsePatternGraphic from '../staticAssets/NORSE-PATTERN-GRAPHIC.png';
-
+import './archive.css';
 export class Archive extends React.Component{
 	constructor(props){
 		super(props);
@@ -16,8 +16,10 @@ export class Archive extends React.Component{
 	render(){
 		return (
 				<div className='archiveMain'>
-								<img className='norsePatternGraphic' src={norsePatternGraphic}/>
-
+					<img className='norsePatternGraphic' src={norsePatternGraphic}/>
+					<section className='comicBookZone'>
+						<div className='pagePicker'></div>
+					</section>
 				</div>
 			);
 	}
