@@ -87,8 +87,24 @@ export class Archive extends React.Component{
 	nextPage(e){
 		console.log('nextPage running');
 		console.log(e);
-		let select = document.getElementById('pageSelector');
-		let options = select.options;
+		
+		let library = this.state.pages;
+		let currentPage = this.state.pageNumber;
+		let nextPage = '';
+		console.log(library);
+		console.log(currentPage);
+		for(let i = 0; i<=library.length-1; i++){
+			if(library[i] == currentPage){
+				console.log(i);
+				console.log('gotta match');
+				nextPage = library[i+1];
+			}
+		}
+		console.log(nextPage);
+		this.setState({
+			pageNumber: nextPage
+		});
+		this.props.dispatch(displayPage(nextPage));
 		
 
 	}
