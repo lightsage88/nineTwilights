@@ -79,7 +79,7 @@ export class Archive extends React.Component{
 		this.setState({
 			pageNumber: prevPage
 		});
-		this.props.dispatch(displayPage(prevPage));
+		this.props.dispatch(displayPage(prevPage)); 
 		
 
 	}
