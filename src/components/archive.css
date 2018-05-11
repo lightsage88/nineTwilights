@@ -34,3 +34,14 @@
 	padding-right: 1rem;
 	cursor: pointer;
 }
+
+.showAnyPage {
+	width:40rem;
+	height:400vh;
+	border: solid blue;
+}
+
+.nowPlaying {
+	width: auto;
+	max-width: 100%;
+}
