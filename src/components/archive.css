@@ -1,3 +1,8 @@
+img.norsePatternGraphic {
+	top: 0rem;
+}
+
+
 .comicBookZone {
 	border:solid;
 	width: auto;
@@ -36,8 +41,8 @@
 }
 
 .showAnyPage {
-	width:40rem;
-	height:400vh;
+	/*width:40rem;
+	height:400vh;*/
 	border: solid blue;
 }
 
