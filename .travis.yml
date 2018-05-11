@@ -1,2 +1,9 @@
- language: node_js
- node_js: node
+language: node_js
+node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: 2fdb6eb9-0370-4b40-ba1d-9fe3a7f71b35
+  app: obscure-temple-15304
+  on:
+    repo: lightsage88/nineTwilights
