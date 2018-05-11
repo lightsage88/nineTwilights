@@ -67,10 +67,18 @@ export class Archive extends React.Component{
 											<option value='GA&W'>GUEST ART & WRITING</option>
 											<option value='ACA'>Anne Clip Art</option>
 										</select>
-										{this.state.pages !== [] ?
-										<select>SUP</select>
-										: null
-										}
+										<select>
+											
+											{
+											 //if this.state.pages is not just [] then fill it up with its contents, other wise NULL
+											 this.state.pages !== [] ? (this.state.pages).map(function(page, index){
+											 	return <option key={index} value={page.fileName}>{index+1}</option>
+											 })
+											 : <option value='' placeholder='N/A' selected disabled>N/A</option>
+
+											}
+										</select>
+										
 
 					<section className='comicBookZone'>
 						<div className='pagePicker'>
