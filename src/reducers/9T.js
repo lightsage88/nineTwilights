@@ -1,7 +1,8 @@
 
 
 const initialState = {
-	tableOfContents: {}
+	tableOfContents: {},
+	nowPlaying: ''
 }
 
 const siteInfo = (state=initialState, action) => {
@@ -10,6 +11,10 @@ const siteInfo = (state=initialState, action) => {
 			return Object.assign({}, state, {
 				tableOfContents: action.comicPages
 			})
+		case 'NOW_PLAYING':
+			return Object.assign({}, state, {
+				nowPlaying: action.imageURL
+			});
 
 
 

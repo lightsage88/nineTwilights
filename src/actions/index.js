@@ -16,6 +16,11 @@ export const viewImage = (image) => ({
 	image
 });
 
+export const nowPlaying = (imageURL) => ({
+	type: 'NOW_PLAYING',
+	imageURL
+});
+
 export const readDatabase=()=> {
 	console.log(DATABASE_URL);
 	
@@ -29,16 +34,16 @@ export const readDatabase=()=> {
 		.then(json=>{
 			let array = [];
 			let comic = json;
-			console.log(comic);
+			// console.log(comic);
 			for(let i =0; i<=comic.length -1; i++) {
 				let object = new Object;
 				object.fileName = comic[i].filename;
 				object.pageNumber = i + 1;
-				console.log('check out the object');
-				console.log(object);
+				// console.log('check out the object');
+				// console.log(object);
 				array.push(object);
 			}
-			console.log(array);
+			// console.log(array);
 			dispatch(tableOfContents(array));
 
 		})
@@ -56,6 +61,8 @@ export const displayPage = (fileName) =>{
 		})
 		.then(json => {
 			console.log(json);
+			dispatch(nowPlaying(json.url))
+
 		})
 		.catch(error => console.log(error));
 	}
