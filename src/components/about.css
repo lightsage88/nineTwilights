@@ -18,3 +18,8 @@ font-family: 'Rhyder', sans-serif;
 	top:auto;
 	bottom: 2rem;
 }
+
+#parchment {
+	background-repeat: round;
+	height:auto;
+}

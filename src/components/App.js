@@ -21,7 +21,7 @@ class App extends Component {
         <main>
           <SiteBanner />
           <NavBar/>
-          <section className='parchmentZone'>
+          <section id='parchment' className='parchmentZone'>
             <Route exact path='/' component={Landing} />
             <Route exact path='/home' component={Home}/>
             <Route exact path='/latest' component={Latest}/>

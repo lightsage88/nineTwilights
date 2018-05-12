@@ -16,8 +16,7 @@ import {
   Dropdown, 
   DropdownToggle, 
   DropdownMenu, 
-  DropdownItem
-} from 'reactstrap';
+  DropdownItem} from 'reactstrap';
 import './navBar.css';
 export class NavBar extends React.Component {
   constructor(props){
@@ -52,6 +51,8 @@ export class NavBar extends React.Component {
     });
   }
 
+
+
   render() {
     return (
       <div>
@@ -61,7 +62,7 @@ export class NavBar extends React.Component {
 
         <Nav className="ml-auto" navbar>
 
-          <NavItem>
+          <NavItem className='sparkley'>
             <NavLink className='navClickables' href="/home">HOME</NavLink>
           </NavItem>  
           <NavItem>
