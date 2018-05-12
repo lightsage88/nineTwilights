@@ -2,7 +2,7 @@
 	width:auto;
 	max-width: 60vw;
 }
-.parchmentZone{
+section.parchmentZone{
 	background: url(/static/media/PARCHMENT-PAPER-GRAPHIC.912d112b.png) round no-repeat;
     background-position-x: 0%;
     background-position-y: 0%;
