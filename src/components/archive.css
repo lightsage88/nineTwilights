@@ -12,18 +12,19 @@ background-position: unset;
 background-size: cover;
 height: 100vh;
 overflow: auto;
+padding-bottom: 8rem;
 
 }
 
 
 img.norsePatternGraphic {
-	top: 3rem;
+	top: 1rem;
 	margin:1rem 5%;
 }
 
 .pageIdentity {
 	font-family: 'Omnibus', sans-serif;
-	font-size: 2rem;
+	font-size: 1.35rem;
     text-align: center;
     color: #bc8347;
     padding:1.2rem;
