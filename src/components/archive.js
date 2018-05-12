@@ -125,7 +125,7 @@ export class Archive extends React.Component{
 											<option>SELECT PAGE</option>
 											{
 											 //if this.state.pages is not just [] then fill it up with its contents, other wise NULL
-											 this.state.pages !== [] ? (this.state.pages).map(function(page, index){
+											 this.state.pages !== [] ? (this.state.pages).sort().map(function(page, index){
 											 	return <option key={index} value={page}>{index+1}</option>
 											 })
 											 : <option placeholder='N/A' disabled>N/A</option>
