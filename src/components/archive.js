@@ -114,6 +114,17 @@ export class Archive extends React.Component{
 				<div className='archiveMain'>
 				<button onClick={(e)=>this.testButton(e)}className='showAnyPage'>show a page</button>
 					<img className='norsePatternGraphic' src={norsePatternGraphic}/>
+					{this.state.pageNumber === "" ?
+					<h3 className='pageIdentity'>SELECT A CATEGORY, THEN A PAGE</h3>
+					:
+					
+					<h3 className='pageIdentity'>PAGE {this.state.pageNumber.slice(10,12)}</h3>
+					
+					
+
+					}
+
+					
 										<select defaultValue='SELECT CATEGORY' onChange={(e)=>this.categorySelect(e)}>
 											<option >SELECT CATEGORY</option>
 											<option value='Chp. 1'>CHAPTER 1</option>
