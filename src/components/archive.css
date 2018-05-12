@@ -1,22 +1,61 @@
-img.norsePatternGraphic {
-	top: 0rem;
+section.parchmentZone {
+
+  background: url(/static/media/PARCHMENT-PAPER-GRAPHIC.912d112b.png) round;
+    background-position-x: 0%;
+    background-position-y: 0%;
+    background-size: auto auto;
+background-size: auto auto;
+background-size: contain;
+position: relative;
+bottom: 5rem;
+background-position: unset;
+background-size: cover;
+height: 100vh;
+overflow: auto;
+
 }
 
 
+img.norsePatternGraphic {
+	top: 3rem;
+	margin:1rem 5%;
+}
+
+.pageIdentity {
+	font-family: 'Omnibus', sans-serif;
+	font-size: 2rem;
+    text-align: center;
+    color: #bc8347;
+    padding:.8rem;
+    position: relative;
+}
+
+select {
+	font-family: "Omnibus";
+    color: #504568;
+    background: #b4a5c4;
+}
+
+.selectSection {
+	text-align: center;
+}
+
 .comicBookZone {
-	border:solid;
-	width: auto;
-	margin: auto;
-	max-width: 70vw;
-	height: auto;
-	min-height: 70vh;
-	position: relative;
+	    border: solid;
+    width: auto;
+    margin: auto;
+    max-width: 70vw;
+    height: auto;
+    min-height: 48vh;
+    position: relative;
+    
 } 
 
 .pagePicker {
 	background: #504568;
 	width:auto;
-	height: 5vh;
+	height: auto;
+	min-height: 3rem;
 	color: #b4a5c4;
 	font-family: "Omnibus", sans-serif;
 }

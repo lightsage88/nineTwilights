@@ -112,19 +112,19 @@ export class Archive extends React.Component{
 	render(){
 		return (
 				<div className='archiveMain'>
-				<button onClick={(e)=>this.testButton(e)}className='showAnyPage'>show a page</button>
 					<img className='norsePatternGraphic' src={norsePatternGraphic}/>
 					{this.state.pageNumber === "" ?
 					<h3 className='pageIdentity'>SELECT A CATEGORY, THEN A PAGE</h3>
 					:
-					
 					<h3 className='pageIdentity'>PAGE {this.state.pageNumber.slice(10,12)}</h3>
-					
-					
-
 					}
+										
 
-					
+					<section className='comicBookZone'>
+						<div className='pagePicker'>
+							<p id='prev' onClick={(e)=>this.prevPage(e)} className='pageFlip previousPage'>PREVIOUS</p>
+							<p id='next' onClick={(e)=>this.nextPage(e)} className='pageFlip nextPage'>NEXT</p>
+							<section className='selectSection'>
 										<select defaultValue='SELECT CATEGORY' onChange={(e)=>this.categorySelect(e)}>
 											<option >SELECT CATEGORY</option>
 											<option value='Chp. 1'>CHAPTER 1</option>
@@ -143,12 +143,7 @@ export class Archive extends React.Component{
 
 											}
 										</select>
-										
-
-					<section className='comicBookZone'>
-						<div className='pagePicker'>
-							<p id='prev' onClick={(e)=>this.prevPage(e)} className='pageFlip previousPage'>PREVIOUS</p>
-							<p id='next' onClick={(e)=>this.nextPage(e)} className='pageFlip nextPage'>NEXT</p>
+										</section>
 						</div>
 							{this.props.nowPlaying !== '' ?
 							<img className='nowPlaying' src={this.props.nowPlaying}/>
