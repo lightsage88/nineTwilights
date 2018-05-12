@@ -2,9 +2,9 @@
 const Grid = require('gridfs-stream');
 const mongoose = require('mongoose'); 
 require('es6-promise').polyfill();
-const API_BASE_URL = 'https://localhost:5000';
+// const API_BASE_URL = 'https://localhost:5000';
 // const Grid = require('gridfs-stream');
-const {DATABASE_URL} = require('../config');
+const {DATABASE_URL, API_BASE_URL} = require('../config');
 
 export const tableOfContents = (comicPages) => ({
 	type: 'TABLE_OF_CONTENTS',
@@ -25,7 +25,7 @@ export const readDatabase=()=> {
 	console.log(DATABASE_URL);
 	
 	return (dispatch) => {
-		fetch('http://localhost:5000/files',
+		fetch(`${API_BASE_URL}/files`,
 		{
 			method: 'GET'
 			
@@ -55,7 +55,7 @@ export const displayPage = (fileName) =>{
 	let pageName = fileName;
 	console.log('displayPage running...');
 	return(dispatch)=>{
-		fetch(`http://localhost:5000/image/${pageName}`,
+		fetch(`${API_BASE_URL}/image/${pageName}`,
 		{
 			method: 'GET'
 		})
