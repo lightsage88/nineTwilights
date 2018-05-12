@@ -16,7 +16,9 @@ export class Archive extends React.Component{
 
 	componentDidMount(){
 		console.log('componentDidMount running');
+		console.log(this.props);
 		this.props.dispatch(readDatabase());
+
 
 	}
 
@@ -108,8 +110,14 @@ export class Archive extends React.Component{
 		
 
 	}
-
+ 
 	render(){
+		console.log(this.props);
+		if(this.props.pathName && this.props.comicPages !== undefined){
+			console.log('gates clear');
+			console.log(this.props.comicPages);
+			this.props.dispatch(displayPage((this.props.comicPages[(this.props.comicPages).length-1].fileName)));
+		}
 		return (
 				<div className='archiveMain'>
 					<img className='norsePatternGraphic' src={norsePatternGraphic}/>
@@ -160,4 +168,4 @@ const mapStateToProps = state => ({
 	nowPlaying: state.app.nowPlaying
 });
 
-export default connect(mapStateToProps)(Archive)
+export default connect(mapStateToProps)(Archive);

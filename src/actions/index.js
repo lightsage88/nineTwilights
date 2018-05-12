@@ -34,11 +34,12 @@ export const readDatabase=()=> {
 		.then(json=>{
 			let array = [];
 			let comic = json;
-			// console.log(comic);
+			console.log(comic);
 			for(let i =0; i<=comic.length -1; i++) {
 				let object = new Object;
 				object.fileName = comic[i].filename;
 				object.pageNumber = i + 1;
+				object.uploadDate = comic[i].uploadDate;
 				// console.log('check out the object');
 				// console.log(object);
 				array.push(object);
