@@ -41,13 +41,14 @@ select {
 }
 
 .comicBookZone {
-	    border: solid;
+	     border: black solid .1rem;
     width: auto;
     margin: auto;
     max-width: 70vw;
     height: auto;
     min-height: 48vh;
     position: relative;
+    background: rgba(0,0,0,0.3);
     
 } 
 
