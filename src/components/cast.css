@@ -25,9 +25,10 @@
 
 .castMain {
 	margin: auto 2rem;
-border: solid;
-height: 90vh;
+/*border: solid;*/
+height: 80vh;
 overflow: auto;
+margin-top:5rem;
 }
 
 .castMemberPicture {
@@ -36,7 +37,7 @@ overflow: auto;
 }
 
 .wandaDusekova {
-	border: solid cyan;
+	/*border: solid cyan;*/
 }
 
 /*.wandaPic {

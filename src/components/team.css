@@ -1,6 +1,6 @@
 .norseDivider {
 	width:auto;
-	max-width: 36rem;
+	max-width: 60vw;
 }
 .parchmentZone{
 	background: url(/static/media/PARCHMENT-PAPER-GRAPHIC.912d112b.png) round no-repeat;
@@ -32,6 +32,7 @@ overflow: scroll;
 	text-align: center;
 	margin: auto 3rem;
 	font-weight: bold;
+	font-size: 1.3rem;
 }
 
 .teamEntries {
@@ -64,4 +65,5 @@ overflow: scroll;
 .teamMemberSummary {
 	font-family: "Rhyder", sans-serif;
 	padding:3rem;
+	font-size: 1.4rem;
 }
