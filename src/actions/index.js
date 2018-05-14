@@ -11,6 +11,8 @@ export const tableOfContents = (comicPages) => ({
 	comicPages
 });
 
+
+
 export const viewImage = (image) => ({
 	type: 'VIEW_IMAGE',
 	image
@@ -34,7 +36,7 @@ export const readDatabase=()=> {
 		.then(json=>{
 			let array = [];
 			let comic = json;
-			console.log(comic);
+			// console.log(comic);
 			for(let i =0; i<=comic.length -1; i++) {
 				let object = new Object;
 				object.fileName = comic[i].filename;
