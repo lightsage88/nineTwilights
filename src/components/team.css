@@ -23,8 +23,8 @@ overflow: scroll;
 }
 
 .troubleSection{
-	    border: solid;
-    height: 50vh;
+/*	    border: solid;
+*/    height: 50vh;
     overflow: auto;
     margin-top: 6vh; 
    position: relative;
