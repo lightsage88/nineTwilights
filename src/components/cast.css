@@ -2,6 +2,7 @@
 	font-family: "Omnibus", sans-serif;
 	text-align: center;
 	margin-top:2rem;
+	font-size: 6vw;
 }
 
 .norseDivider {
@@ -100,4 +101,31 @@ text-align: center;
 
 .sari2 {
 	float:right;
+}
+
+@media screen and (min-width: 750px) {
+
+.castMemberPicture {
+	width: auto;
+max-width: 30vw;
+}
+
+.castMemberName {
+	font-size: 3vw;
+	margin: auto 1vw;
+}
+
+.castMemberSummary {
+	font-size: 2vw;
+	margin: auto 3vw;
+}
+
+.sariSummary {
+	min-width: unset;
+	padding-right: unset;
+}
+#parchment {
+	overflow: auto;
+}
+
 }

@@ -8,6 +8,14 @@
 font-family: 'Rhyder', sans-serif;
 }
 
+.aboutText h3 {
+	font-size: 2vw;
+}
+
+.aboutText p {
+	font-size: 1.5vw;
+}
+
 .aboutHeader {
 	font-size: 1.3rem;
 	margin: 5% auto;
