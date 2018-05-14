@@ -2,7 +2,7 @@
 	width:auto;
 	max-width: 60vw;
 }
-section.parchmentZone{
+#parchment{
 	background: url(/static/media/PARCHMENT-PAPER-GRAPHIC.912d112b.png) round no-repeat;
     background-position-x: 0%;
     background-position-y: 0%;
@@ -13,8 +13,22 @@ position: relative;
 bottom: 4rem;
 background-position: unset;
 background-size: cover;
-height: 100vh;
+height: auto;
 overflow: scroll;
+}
+
+#norseTop {
+	top: -2rem;
+    /* margin: 1rem 5%; */
+}
+
+.troubleSection{
+	    border: solid;
+    height: 31vh;
+    overflow: auto;
+    /* margin-top: 6vh; */
+    position: relative;
+    top: 7vh;
 }
 
 #closingNorse {

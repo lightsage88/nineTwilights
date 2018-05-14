@@ -8,8 +8,9 @@ import norsePatternGraphic from '../staticAssets/NORSE-PATTERN-GRAPHIC.png';
 export default function Team(props){
 	return (
 		<div className='teamMain'>
-			<img className='norsePatternGraphic' src={norsePatternGraphic}/>
-				<section>
+				<section className='troubleSection'>
+							<img id='norseTop' className='norsePatternGraphic' src={norsePatternGraphic}/>
+
 					<h3 className='teamHeader'>TEAM</h3>
 					<p className='teamForward'>Nine Twilights is brought to you by a 
 					spectacular creative collaborative team consisting of Anne Agnew, 
@@ -51,8 +52,9 @@ export default function Team(props){
 
 							</div>
 						</section>
+									<img id='closingNorse' className='norsePatternGraphic' src={norsePatternGraphic}/>
+
 				</section>
-			<img id='closingNorse' className='norsePatternGraphic' src={norsePatternGraphic}/>
 		</div>
 	);
 }

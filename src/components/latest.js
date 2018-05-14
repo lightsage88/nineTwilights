@@ -44,33 +44,8 @@ componentDidUpdate(){
 
 
 
-// shouldComponentUpdate(nextProps, nextState){
-// 	this.seedState();
-// }
-
-
-
-// seedState(){
-// 	console.log('seedstate running');
-// 	console.log(this.props);
-// let latestPageFileName= this.props.latestPageFileName;
-// let latestPageChapter= this.props.latestPageChapter;
-// let latestPageNumber= this.props.latestPageNumber;
-// 	this.setState({
-// 		latestPageFileName: latestPageFileName,
-// 		latestPageChapter: latestPageChapter,
-// 		latestPageNumber: latestPageNumber
-// 	});
-// }
-
-
 	render(){
-	// 	return (
-	// 	<Archive pathName={this.props.history.location.pathname}/>
 
-	// 	);
-
-//(number 10,12) {this.props.latestPage.fileName.slice(3,9)}
 	console.log(this.props);
 	console.log(this.state);
 	// let target = this.state.latestPageFileName;
@@ -78,7 +53,7 @@ componentDidUpdate(){
 	return (
 				<div className='archiveMain'>
 					<img className='norsePatternGraphic' src={norsePatternGraphic}/>
-					<h3 className='latestH3'>LATEST<br/><span>{this.state.latestPageChapter} Page {this.state.latestPageNumber}</span></h3>
+					<h3 className='latestH3'>LATEST: <span>{this.state.latestPageChapter} Page {this.state.latestPageNumber}</span></h3>
 										
 
 					<section className='comicBookZone'>
