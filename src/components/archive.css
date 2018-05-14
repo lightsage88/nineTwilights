@@ -97,5 +97,9 @@ select {
 
 
 .archiveMain{
-	padding-bottom:10vh;
+	margin: auto 2rem;
+
+height: 80vh;
+
+overflow: auto;;
 }
