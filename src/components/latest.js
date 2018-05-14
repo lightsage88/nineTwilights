@@ -3,7 +3,7 @@ import Archive from './archive';
 import {connect} from 'react-redux';
 import {readDatabase} from '../actions/index.js';
 import {displayPage} from '../actions/index.js';
-
+import './latest.css';
 import norsePatternGraphic from '../staticAssets/NORSE-PATTERN-GRAPHIC.png';
 export class Latest extends React.Component {
 	constructor(props){
@@ -78,7 +78,7 @@ componentDidUpdate(){
 	return (
 				<div className='archiveMain'>
 					<img className='norsePatternGraphic' src={norsePatternGraphic}/>
-					<h3>LATEST-</h3>
+					<h3 className='latestH3'>LATEST<br/><span>{this.state.latestPageChapter} Page {this.state.latestPageNumber}</span></h3>
 										
 
 					<section className='comicBookZone'>
