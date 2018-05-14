@@ -98,3 +98,13 @@ overflow: auto;
 	padding:3rem;
 	font-size: 1.4rem;
 }
+
+@media screen and (min-width: 750px) {
+	.teamMain {
+		margin: 2rem;
+	}
+
+	#parchment {
+		bottom: 6rem;
+	}
+}

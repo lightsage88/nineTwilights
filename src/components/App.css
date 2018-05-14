@@ -8,6 +8,8 @@
   src: url('../staticAssets/TT_OMNIB.ttf') format('truetype');
 }
 
+
+
 /*.parchmentZone {
   background: url(/static/media/PARCHMENT-PAPER-GRAPHIC.912d112b.png) round no-repeat;
     background-size: auto auto;
@@ -64,15 +66,12 @@ overflow: auto;
 
 
 @media screen and (min-width:750px){
-  .parchmentZone{
-    width: auto;
-max-width: 66%;
-margin: auto 15%;
+
+  .parchmentZone {
+    width: 60%;
+    margin: auto 20%;
+    overflow:hidden;
   }
 
-  #parchment {
-    width: auto;
-max-width: 66%;
-margin: auto 15%;
-  }
+  
 }
