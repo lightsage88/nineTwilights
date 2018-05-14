@@ -32,6 +32,13 @@ button#NavbarToggler.mr-2.navbar-toggler {
 }
 
 @media screen and (min-width:750px) {
+nav ul {
+	margin: auto 20%;
+}
 
+.navBarMain{
+	position: relative;
+margin: auto 20%;
+}
 
 }

@@ -24,7 +24,7 @@ overflow: scroll;
 
 .troubleSection{
 /*	    border: solid;
-*/    height: 50vh;
+*/    
     overflow: auto;
     margin-top: 6vh; 
    position: relative;
@@ -39,6 +39,14 @@ position: relative;
 top: 7vh;
 margin: 3vh;
 }*/
+
+.teamMain {
+	margin: auto 2rem;
+
+height: 80vh;
+
+overflow: auto;
+}
 
 #closingNorse {
 	top:auto;
