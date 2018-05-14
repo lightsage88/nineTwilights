@@ -1,0 +1,19 @@
+.homeMain {
+	position: relative;
+	height: auto;
+	min-height: 50vh;
+	padding-bottom:10vh;
+}
+
+.homeMain span{
+	position: absolute;
+	top:20%;
+}
+
+.NTlogo {
+	position: absolute;
+	top:30%;
+	width: auto;
+	max-width:50%;
+	margin:auto 25%;
+}

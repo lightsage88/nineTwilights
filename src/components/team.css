@@ -3,7 +3,7 @@
 	max-width: 60vw;
 }
 #parchment{
-	background: url(/static/media/PARCHMENT-PAPER-GRAPHIC.912d112b.png) round no-repeat;
+	background: url(/static/media/PARCHMENT-PAPER-GRAPHIC.912d112b.png) round;
     background-position-x: 0%;
     background-position-y: 0%;
     background-size: auto auto;
@@ -24,12 +24,21 @@ overflow: scroll;
 
 .troubleSection{
 	    border: solid;
-    height: 31vh;
+    height: 50vh;
     overflow: auto;
-    /* margin-top: 6vh; */
-    position: relative;
-    top: 7vh;
+    margin-top: 6vh; 
+   position: relative;
+    top: 0vh;
 }
+/*.troubleSection{
+border: solid;
+height: 100vh;
+overflow: auto;
+margin-top: 6vh;
+position: relative;
+top: 7vh;
+margin: 3vh;
+}*/
 
 #closingNorse {
 	top:auto;

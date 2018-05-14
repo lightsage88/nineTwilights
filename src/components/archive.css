@@ -16,6 +16,10 @@ padding-bottom: 8rem;
 
 }
 
+#parchment{
+	background-repeat: round;
+}
+
 
 img.norsePatternGraphic {
 	top: 1rem;
@@ -89,4 +93,9 @@ select {
 .nowPlaying {
 	width: auto;
 	max-width: 100%;
+}
+
+
+.archiveMain{
+	padding-bottom:10vh;
 }

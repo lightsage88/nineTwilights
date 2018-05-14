@@ -4,7 +4,7 @@ import './about.css';
 export default function About(props){
 	return (
 		<div className='aboutMain'>
-			<img className='norsePatternGraphic' src={norsePatternGraphic}/>
+			<img id='aboutTopNorse' className='norsePatternGraphic' src={norsePatternGraphic}/>
 			<section className='aboutText'>
 				<h3 className='aboutHeader'>RAGNAROK: The Twilight of the Gods</h3>
 				<p>
