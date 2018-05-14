@@ -55,7 +55,7 @@ export class NavBar extends React.Component {
 
   render() {
     return (
-      <div>
+      <div className='navBarMain'>
       <Navbar className='navBarBody' color="faded" light expand="md">
         <NavbarToggler onClick={this.toggle} id="NavbarToggler" className='mr-2'/>
         <Collapse isOpen={this.state.isOpen} navbar>

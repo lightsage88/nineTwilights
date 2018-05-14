@@ -61,3 +61,18 @@ overflow: auto;
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+
+
+@media screen and (min-width:750px){
+  .parchmentZone{
+    width: auto;
+max-width: 66%;
+margin: auto 15%;
+  }
+
+  #parchment {
+    width: auto;
+max-width: 66%;
+margin: auto 15%;
+  }
+}

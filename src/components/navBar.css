@@ -30,3 +30,8 @@ button#NavbarToggler.mr-2.navbar-toggler {
 	background-image: url(../staticAssets/Sari-pic.png);
 	background-size:cover;
 }
+
+@media screen and (min-width:750px) {
+
+
+}
