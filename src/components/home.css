@@ -8,6 +8,9 @@
 .homeMain span{
 	position: absolute;
 	top:20%;
+	left:10%;
+	font-family: "Omnibus", sans-serif;
+	font-size:1.13rem;
 }
 
 .NTlogo {
