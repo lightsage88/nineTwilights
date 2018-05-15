@@ -9,11 +9,11 @@ font-family: 'Rhyder', sans-serif;
 }
 
 .aboutText h3 {
-	font-size: 2vw;
+	font-size: 4vw;
 }
 
 .aboutText p {
-	font-size: 1.5vw;
+	font-size: 3vw;
 }
 
 .aboutHeader {
@@ -34,4 +34,16 @@ font-family: 'Rhyder', sans-serif;
 
 #aboutTopNorse {
 	top: 3rem;
+}
+
+@media screen and (min-width: 750px) {
+
+	.aboutText h3 {
+		font-size: 2vw;
+	}
+
+	.aboutText p {
+		font-size: 1.5vw;
+	}
+
 }

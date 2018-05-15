@@ -106,5 +106,25 @@ overflow: auto;
 
 	#parchment {
 		bottom: 6rem;
+		overflow: hidden;
+	}
+
+	.teamHeader {
+		font-size: 4vw;
+	}
+	.teamForward {
+		font-size: 1.5vw;
+	}
+	.teamFace {
+		max-width: 20vw;
+	}
+	.teamMemberName {
+		font-size: 2.5vw;
+	}
+	.teamMemberRole {
+		font-size: 2vw;
+	}
+	.teamMemberSummary {
+		font-size: 1.6vw;
 	}
 }
