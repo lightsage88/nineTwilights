@@ -18,9 +18,9 @@ import {
   DropdownMenu, 
   DropdownItem} from 'reactstrap';
 import './navBar.css';
-import ntTumbler from '../staticAssets/9Ttumblr-icon.jpg';
-import NTTwitter from '../staticAssets/NTtwitter.jpg';
-import NTFB from '../staticAssets/NTfacebook.jpg';
+// import ntTumbler from '../staticAssets/9Ttumblr-icon.jpg';
+// import NTTwitter from '../staticAssets/NTtwitter.jpg';
+// import NTFB from '../staticAssets/NTfacebook.jpg';
 export class NavBar extends React.Component {
   constructor(props){
     super(props);
