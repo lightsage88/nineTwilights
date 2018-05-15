@@ -9,6 +9,9 @@
 	font-size: 2rem;
 }
 
+.socialMedia{
+	max-width: 1.5vw;
+}
 
 
 .navClickables {
@@ -39,6 +42,6 @@ button#NavbarToggler.mr-2.navbar-toggler {
 
 	ul li {
 		/*border:solid white;*/
-		
+
 	}
 }

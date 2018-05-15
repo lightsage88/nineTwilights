@@ -18,6 +18,9 @@ import {
   DropdownMenu, 
   DropdownItem} from 'reactstrap';
 import './navBar.css';
+import ntTumbler from '../staticAssets/9Ttumblr-icon.jpg';
+import NTTwitter from '../staticAssets/NTtwitter.jpg';
+import NTFB from '../staticAssets/NTfacebook.jpg';
 export class NavBar extends React.Component {
   constructor(props){
     super(props);
@@ -57,10 +60,11 @@ export class NavBar extends React.Component {
     return (
       <div className='navBarMain'>
       <Navbar className='navBarBody' color="faded" light expand="md">
-        <NavbarToggler onClick={this.toggle} id="NavbarToggler" className='mr-2'/>
+
+        <NavbarToggler onClick={this.toggle} id="NavbarToggler" className='mr-auto'/>
         <Collapse isOpen={this.state.isOpen} navbar>
 
-        <Nav className="ml-auto" navbar>
+        <Nav className="mr-auto" navbar>
 
           <NavItem className='sparkley'>
             <NavLink className='navClickables' href="/home">HOME</NavLink>
@@ -81,8 +85,24 @@ export class NavBar extends React.Component {
           <NavItem>
             <NavLink className='navClickables' href='/team'>Team</NavLink>
           </NavItem>
+             {/*     <section className='mediaRight'>
+                   <NavItem>
+                    <img className='socialMedia' src={NTFB} alt='' />
+                   </NavItem>
+                   <NavItem>
+                    <img className='socialMedia' src={NTTwitter} alt=''/>
+                  </NavItem>
+                  <NavItem>
+                    <img className='socialMedia' src={ntTumbler} alt=''/>
+                  </NavItem>
+                  </section>*/}
+         
+         
         </Nav>
+
+        
         </Collapse>
+
         </Navbar>
 
 
