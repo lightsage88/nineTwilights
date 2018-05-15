@@ -18,9 +18,9 @@ import {
   DropdownMenu, 
   DropdownItem} from 'reactstrap';
 import './navBar.css';
-// import ntTumbler from '../staticAssets/9Ttumblr-icon.jpg';
-// import NTTwitter from '../staticAssets/NTtwitter.jpg';
-// import NTFB from '../staticAssets/NTfacebook.jpg';
+import ntTumbler from '../staticAssets/9Ttumblr-icon.jpg';
+import NTTwitter from '../staticAssets/NTtwitter.jpg';
+import NTFB from '../staticAssets/NTfacebook.jpg';
 export class NavBar extends React.Component {
   constructor(props){
     super(props);
@@ -85,17 +85,18 @@ export class NavBar extends React.Component {
           <NavItem>
             <NavLink className='navClickables' href='/team'>Team</NavLink>
           </NavItem>
-             {/*     <section className='mediaRight'>
-                   <NavItem>
-                    <img className='socialMedia' src={NTFB} alt='' />
-                   </NavItem>
-                   <NavItem>
-                    <img className='socialMedia' src={NTTwitter} alt=''/>
-                  </NavItem>
-                  <NavItem>
-                    <img className='socialMedia' src={ntTumbler} alt=''/>
-                  </NavItem>
-                  </section>*/}
+          </Nav>
+          <Nav className='socialMediaIcons'>
+           <NavItem>
+
+            <NavLink className='navClickables2'  href='https://www.facebook.com/NineTwilights/'><img className='socialMedia' id='facebook' src={NTFB} alt='' /></NavLink>
+           </NavItem>
+           <NavItem>
+            <NavLink  className='navClickables2' href='https://twitter.com/NineTwilights'><img className='socialMedia' id='twitter' src={NTTwitter} alt=''/></NavLink>
+          </NavItem>
+          <NavItem>
+            <NavLink  className='navClickables2' href='http://ninetwilights.tumblr.com/'><img className='socialMedia' id='tumbler' src={ntTumbler} alt=''/></NavLink>
+          </NavItem>
          
          
         </Nav>

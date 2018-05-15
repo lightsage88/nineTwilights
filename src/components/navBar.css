@@ -5,6 +5,15 @@
 	z-index: 1;
 }
 
+.socialMediaIcons {
+	width:1vh;
+}
+
+.socialMediaIcons li img {
+	width: auto;
+	min-width:4vw;
+}
+
 .navBarBody div ul li a {
 	font-size: 2rem;
 }
@@ -20,9 +29,17 @@
 	color: #d2c4e4 !important;
 }
 
-.navClickables:hover {
+
+
+.navClickables:hover{
 	color: #92e5e9 !important;
 }
+
+button{
+	background:#d2c4e4;
+}
+
+
 
 button#NavbarToggler.mr-2.navbar-toggler {
 	background-color: #d2c4e4;
@@ -44,4 +61,13 @@ button#NavbarToggler.mr-2.navbar-toggler {
 		/*border:solid white;*/
 
 	}
+
+.socialMediaIcons {
+	width: unset;
+}
+
+.socialMediaIcons li img {
+	width:unset;
+	min-width:unset;
+}
 }
