@@ -7,8 +7,15 @@
 html,main {
 	font-size: 10px; 
 	background: #4a6a97;
+	
+/*	-ms-overflow-style:none;
+*/	overflow-x: -moz-scrollbars-none;
 }
 
 body {
 	margin:auto 5% !important ;
 }
+
+::-webkit-scrollbar {
+  display:none;
+  }
