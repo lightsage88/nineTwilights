@@ -61,6 +61,16 @@ export class Archive extends React.Component{
 		this.props.dispatch(displayPage(pageNumber));
 	}
 
+	firstPage(e) {
+		console.log('firstPage running...');
+		let comicPages = this.props.comicPages;
+		console.log(comicPages);
+			this.setState({
+			pageNumber : comicPages[0].fileName
+		});
+		this.props.dispatch(displayPage(comicPages[0].fileName));
+	}
+
 	prevPage(e){
 		console.log('prevPage running');
 		console.log(e);
@@ -110,6 +120,16 @@ export class Archive extends React.Component{
 		
 
 	}
+
+	lastPage(e) {
+		console.log('firstPage running...');
+		let comicPages = this.props.comicPages;
+		console.log(comicPages);
+		this.setState({
+			pageNumber : comicPages[comicPages.length-1].fileName
+		});
+		this.props.dispatch(displayPage(comicPages[comicPages.length-1].fileName));
+	}
  
 	render(){
 		console.log(this.props);
@@ -130,8 +150,11 @@ export class Archive extends React.Component{
 
 					<section className='comicBookZone'>
 						<div className='pagePicker'>
-							<p id='prev' onClick={(e)=>this.prevPage(e)} className='pageFlip previousPage'>PREVIOUS</p>
+{/*							<p id='first' onClick={(e)=>this.firstPage(e)} className='pageFlip firstPage'>FIRST</p>
+*/}							<p id='prev' onClick={(e)=>this.prevPage(e)} className='pageFlip previousPage'>PREVIOUS</p>
 							<p id='next' onClick={(e)=>this.nextPage(e)} className='pageFlip nextPage'>NEXT</p>
+{/*							<p id='last' onClick={(e)=>this.lastPage(e)} className='pageFlip lastPage'>LAST</p>
+*/}
 							<section className='selectSection'>
 										<select defaultValue='SELECT CATEGORY' onChange={(e)=>this.categorySelect(e)}>
 											<option >SELECT CATEGORY</option>
@@ -157,6 +180,14 @@ export class Archive extends React.Component{
 							<img className='nowPlaying' src={this.props.nowPlaying}/>
 							: null
 							}
+							
+						<div className='pagePicker'>
+{/*							<p id='first' onClick={(e)=>this.firstPage(e)} className='pageFlip firstPage'>FIRST</p>
+*/}							<p id='prev' onClick={(e)=>this.prevPage(e)} className='pageFlip previousPage'>PREVIOUS</p>
+							<p id='next' onClick={(e)=>this.nextPage(e)} className='pageFlip nextPage'>NEXT</p>
+{/*							<p id='last' onClick={(e)=>this.lastPage(e)} className='pageFlip lastPage'>LAST</p>
+*/}
+						</div>
 					</section>
 				</div>
 			);

@@ -9,6 +9,10 @@
 	width:1vh;
 }
 
+img#tumbler.socialMedia {
+	width: 1vw;
+}
+
 .socialMediaIcons li img {
 	width: auto;
 	min-width:4vw;

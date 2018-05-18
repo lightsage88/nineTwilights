@@ -7,7 +7,7 @@
 background-size: auto auto;
 background-size: contain;
 position: relative;
-bottom: 5rem;
+bottom: 7vh;
 background-position: unset;
 background-size: cover;
 height: 100vh;
@@ -22,7 +22,7 @@ padding-bottom: 8rem;
 
 
 img.norsePatternGraphic {
-	top: 1rem;
+	top: 3vh;
 	margin:1rem 5%;
 }
 
@@ -111,7 +111,7 @@ overflow: auto;;
 	}
 
 	.comicBookZone {
-		margin: auto 20%;
+		margin: auto 8%;
 	}
 
 }

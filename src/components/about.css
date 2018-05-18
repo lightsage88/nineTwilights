@@ -6,6 +6,7 @@
 .aboutText {
 	text-align: center;
 font-family: 'Rhyder', sans-serif;
+margin-top:2vh;
 }
 
 .aboutText h3 {
@@ -25,6 +26,7 @@ font-family: 'Rhyder', sans-serif;
 #closingNorse {
 	top:auto;
 	bottom: 2rem;
+	padding: unset;
 }
 
 #parchment {
@@ -33,7 +35,7 @@ font-family: 'Rhyder', sans-serif;
 }
 
 #aboutTopNorse {
-	top: 3rem;
+	top: 3vh;
 }
 
 @media screen and (min-width: 750px) {
