@@ -85,8 +85,20 @@ export class NavBar extends React.Component {
           <NavItem>
             <NavLink className='navClickables' href='/team'>Team</NavLink>
           </NavItem>
+<section id='travelers'>
+          <NavItem>
+
+            <NavLink className='navClickables'  href='https://www.facebook.com/NineTwilights/'><img className='socialMedia' id='facebook' src={NTFB} alt='' /></NavLink>
+           </NavItem>
+           <NavItem>
+            <NavLink  className='navClickables' href='https://twitter.com/NineTwilights'><img className='socialMedia' id='twitter' src={NTTwitter} alt=''/></NavLink>
+          </NavItem>
+          <NavItem>
+            <NavLink  className='navClickables' href='http://ninetwilights.tumblr.com/'><img className='socialMedia' id='tumbler' src={ntTumbler} alt=''/></NavLink>
+          </NavItem>
+</section>
           </Nav>
-          <Nav className='socialMediaIcons'>
+          {/*<Nav className='socialMediaIcons'>
            <NavItem>
 
             <NavLink className='navClickables2'  href='https://www.facebook.com/NineTwilights/'><img className='socialMedia' id='facebook' src={NTFB} alt='' /></NavLink>
@@ -99,7 +111,7 @@ export class NavBar extends React.Component {
           </NavItem>
          
          
-        </Nav>
+        </Nav>*/}
 
         
         </Collapse>
