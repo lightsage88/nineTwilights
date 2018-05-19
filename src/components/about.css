@@ -41,11 +41,11 @@ margin-top:2vh;
 @media screen and (min-width: 750px) {
 
 	.aboutText h3 {
-		font-size: 2vw;
+		font-size: 3vw;
 	}
 
 	.aboutText p {
-		font-size: 1.5vw;
+		font-size: 2vw;
 	}
 
 }

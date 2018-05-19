@@ -48,7 +48,7 @@ export default function Team(props){
 								<p className='teamMemberSummary'>Andrea Rosales is an illustrator/graphic designer/concept artist from Portland, OR.
 								Passionate about visual storytelling, Andrea is thrilled to be working on Nine Twilights! Andrea graduated from Loyola Marymount University
 								in 2012, having studied graphic design and animation. She is available for commissions and also sells her artwork via her online shop,  
-								<a href='https://goodwalrusgoods.wordpress.com/'> Good Walrus Goods</a></p>
+								<a href='https://www.etsy.com/shop/GoodWalrusGoods'> Good Walrus Goods</a></p>
 
 							</div>
 						</section>
