@@ -116,5 +116,9 @@ select {
 		margin: auto 8%;
 	}
 
+	select {
+		font-size: 1.5vw;
+	}
+
 }
 
