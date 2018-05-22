@@ -1,3 +1,5 @@
+/*CAST.CSS*/
+
 section#parchment.parchmentZone {
 	bottom: 10vh;
 }
@@ -31,7 +33,7 @@ section#parchment.parchmentZone {
 .castMain {
 	margin: auto 2rem;
 /*border: solid;*/
-height: 80vh;
+height: -webkit-fill-available;
 overflow: auto;
 margin-top:5rem;
 }

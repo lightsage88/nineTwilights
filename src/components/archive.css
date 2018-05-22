@@ -1,4 +1,6 @@
-#parchment {
+/*ARCHIVE.CSS*/
+
+section#parchment.parchmentZone {
 
   background: url(/static/media/PARCHMENT-PAPER-GRAPHIC.912d112b.png) round;
     background-position-x: 0%;
@@ -97,11 +99,11 @@ select {
 
 
 .archiveMain{
-	margin: auto 2rem;
-
-height: 80vh;
-
-overflow: auto;;
+	
+      margin: auto 2rem;
+    height: -webkit-fill-available;
+    min-height: fit-content;
+    overflow: auto;
 }
 
 

@@ -1,9 +1,10 @@
+import './archive.css';
 import React from 'react';
 import {readDatabase} from '../actions/index.js';
 import {displayPage} from '../actions/index.js';
 import {connect} from 'react-redux';
 import norsePatternGraphic from '../staticAssets/NORSE-PATTERN-GRAPHIC.png';
-import './archive.css';
+
 export class Archive extends React.Component{
 	constructor(props){
 		super(props);
